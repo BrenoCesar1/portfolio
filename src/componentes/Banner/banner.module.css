@@ -1,0 +1,170 @@
+.banner {
+    padding: 0rem 7.5rem 0rem;
+    background-color: #1565c0;
+    color: var(--branco);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.titulo {
+    font-size: 3rem;
+    margin-top: 3.875rem;
+    margin-bottom: 0.5rem;
+}
+
+.paragrafo,
+.segundoParagrafo {
+    font-size: 1.4rem;
+    line-height: 2rem;
+    margin-bottom: 2rem;
+}
+
+.segundoParagrafo {
+    margin-top: -2vw;
+}
+
+/* banner.module.css */
+
+.blinkingCursor {
+    display: inline-block;
+    width: 0.1em;
+    height: 1.2em;
+    background-color: rgb(250, 249, 249);
+    animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
+
+.imagens {
+    position: relative;
+    height: 406px;
+}
+
+.imagens>.minhaFoto {
+    position: absolute;
+    right: 2vw;
+    top: 4vw;
+    bottom: 0;
+    width: 18vw;
+    border-radius: 50%;
+    object-fit: contain;
+    margin: 0 auto;
+}
+
+.subtitulo2{
+    color: rgb(73, 67, 67);
+    font-size: 1rem;
+    margin-top: -1.5rem;
+    margin-bottom: 2rem;
+}
+
+.icones {
+    display: flex;
+    /* Exibe os ícones em uma linha */
+    gap: 10px;
+    /* Espaço entre os ícones */
+    position: absolute;
+    right: 2vw;
+    top: 23vw;
+    bottom: 0;
+    width: 12.3vw;
+}
+
+.backgroundIconLinkedin,
+.backgroundIconGit {
+    max-width: 5rem;
+    max-height: 2.5rem;
+    background-color: rgba(255, 255, 255, 0.836);
+    border-radius: 5px;
+    transition: transform 0.3s ease; 
+}
+
+.backgroundIconLinkedin:hover,
+.backgroundIconGit:hover{
+    transform: scale(0.95);
+}
+
+
+.botaoContainer {
+    transform: translateY(-5.2rem);
+}
+
+.botaoIcon {
+    color: #FFF;
+    background-Color: #1976d200;
+    border-color: #FFF;
+    transition: background-color 0.3s;
+    border-radius: .5rem;
+    font-size: 15px;
+    transition: transform 0.3s ease; 
+    
+}
+
+.botaoIcon:hover {
+    background: linear-gradient(135deg, #007adf 10%, #00ecbc 100%);
+    border-color: #FFF;
+    transform: scale(0.95);
+   
+}
+
+.icone{
+    margin-left: 5px;
+    margin-top: -5px; 
+}
+
+@media (max-width: 1100px) {
+    .banner {
+        padding: 3.5rem 1.5rem;
+    }
+
+    .titulo {
+        margin-top: 0;
+        margin-bottom: 1.5rem;
+    }
+
+    .paragrafo {
+        margin-bottom: 1.5rem;
+    }
+
+    .imagens {
+        height: 338px;
+    }
+
+    .imagens>.minhaFoto {
+        width: 25vw;
+    }
+}
+
+@media (max-width: 744px) {
+    .banner {
+        padding: 2rem 1rem;
+        display: block;
+    }
+
+    .titulo {
+        margin-bottom: 2rem;
+    }
+
+    .paragrafo {
+        margin-bottom: 2rem;
+    }
+
+    .imagens {
+        height: 307px;
+    }
+
+    .imagens>.minhaFoto {
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+
+    .imagens>.minhaFoto {
+        width: 170px;
+        transform: translate(5rem, 0px);
+    }
+}

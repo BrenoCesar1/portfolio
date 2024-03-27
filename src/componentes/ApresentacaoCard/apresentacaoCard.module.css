@@ -1,0 +1,54 @@
+
+.container {
+    max-width: 90%;
+    padding: 2rem;
+    border-radius: 10px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: -7rem;
+    margin-bottom: 4rem;
+
+}
+
+.fotoSobreMim {
+    margin-left: 1rem;
+    width: 16vw;
+    border-radius: 2rem;
+    box-shadow: 0 4px 10px 4px #1d20229f;
+    
+}
+
+.subtitulo {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+    margin-left: -22rem;
+}
+
+.subtitulo2{
+    color: rgb(73, 67, 67);
+    font-size: 1rem;
+    margin-top: -1.5rem;
+    margin-bottom: 2rem;
+    margin-left: -22rem;
+}
+
+
+.paragrafo {
+    text-align: center;
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+    margin-bottom: 0.5rem;
+    color: rgb(0, 0, 0);
+    max-width: 900px; 
+    overflow-wrap: break-word;
+}
+
+.fadeIn {
+    opacity: 0;
+    transition: opacity 2s ease-in-out;;
+}
+
+.fadeIn.fadeInActive {
+    opacity: 1;
+}

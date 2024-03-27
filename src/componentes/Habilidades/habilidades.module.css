@@ -1,0 +1,42 @@
+.box {
+  border: 3px solid #2b5585;
+  padding: 10px 5px; /* Ajuste o padding conforme desejado */
+  width: 100px; /* Define a largura da caixa */
+  height: 100px; /* Define a altura da caixa */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0 30px 0 0; /* Arredonda o canto superior direito */
+  border-bottom: 5px solid #5192dd; /* Define a borda inferior */
+  
+}
+
+.box .CImage {
+  width: 50px; /* Ajuste o tamanho dos ícones */
+  height: 50px;
+}
+
+.box p {
+  margin-bottom: 10px; /* Ajuste o valor da margem conforme desejado */
+  color: #2b5585;
+}
+
+.CRowColumns{
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.container {
+  opacity: 0;
+  transform: translateX(-50%);
+  transition: opacity 2s, transform 2s;
+  margin-top: 1rem;
+}
+
+.slideIn {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+
