@@ -19,12 +19,18 @@
 
 
 .titulo {
-    font-family: var(--fonte-secundaria);
     font-size: 1.25rem;
-    color: var(--azul-escuro);
+    color: black;
     line-height: 1.75rem;
     margin: 1.5rem 0 1.75rem;
     text-decoration: none; /* Remover sublinhado */
+}
+
+.descricao{
+    font-size: 1.1rem;
+    margin-top: -1.5rem;
+    margin-bottom: 1.5rem;
+    color: rgba(66, 64, 64, 0.89);
 }
 
 

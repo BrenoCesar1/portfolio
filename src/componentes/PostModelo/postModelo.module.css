@@ -6,7 +6,7 @@
 
 .fotoCapa,
 .titulo {
-    height: 350px;
+    height: 360px;
 }
 
 
@@ -23,8 +23,8 @@
 
 
 .titulo {
-    padding: 0 40rem 12rem;
-    font-size: 3.3rem;
+    padding: 0 48rem 13rem;
+    font-size: 3rem;
     display: flex;
     align-items: center;
     white-space: nowrap;

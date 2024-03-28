@@ -18,5 +18,10 @@
         "id": 4,
         "titulo": "Nome do projeto",
         "texto": "Descrição do projeto"
+    },
+    {
+        "id": 5,
+        "titulo": "Loja dominio",
+        "texto": "Criação de uma loja e-comerce para um estabelecimento local."
     }
 ]

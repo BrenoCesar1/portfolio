@@ -1,6 +1,8 @@
 .banner {
     padding: 0rem 7.5rem 0rem;
     background-color: #1565c0;
+    border: solid 5px;
+    border-color: #05345a93;
     color: var(--branco);
     display: grid;
     grid-template-columns: 1fr 1fr;
